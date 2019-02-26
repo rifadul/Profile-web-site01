@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Section top*/
+.section_top {
+    background-image: url(Img/header-bg.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: silver;
+}
+
+.banar {
+    background-color: rgba(0, 0, 0, .45);
+    height: 100vh;
+}
+
+/*nav*/
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: ;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-new {
+    padding-top: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: ;
+    position: relative;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+/*    background: black;*/
+    border: 2px solid white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    background-color: transparent;
+    color: white;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 20px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*nav end*/
+/*text*/
+
+@media (min-width: 992px) .col-md-offset-3 {
+    margin-left: 25%;
+}
+
+.n-text {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.main-n-text .social {
+    margin-bottom: 10px;
+}
+
+.main-n-text .n-name h2 {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 3px solid white;
+    font-size: 62px;
+    border-top: 3px solid white;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.edit {
+    border-right: 1px solid #c3bec2;
+    padding: 0 10px 0 10px;
+    padding-right: 20px;
+}
+
+.edit-last {
+    padding: 0 10px 0 10px;
+}
+
+.parag p {
+    color: #c3bec2;
+    font-size: 20px;
+}
+
+.mar {
+    margin: 0 auto;
+}
+
+/*about-part*/
+.about-part {
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.pa {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-me {
+    margin-top: 70px;
+}
+
+.about-me h4 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-me p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.about-me a {
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2b4a;
+    border-color: transparent;
+    border-radius: 0;
+    padding: 10px 60px;
+    font-size: 16px;
+}
+
+.about-me a:hover {
+    background-color: #002453;
+}
+
+/*Working_process*/
+
+.Working_process {
+    background-color: #dddfeb;
+    padding-bottom: 150px;
+}
+
+.hade-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.padi {
+    padding-bottom: 30px;
+}
+
+.hade-text h3 {
+    font-size: 40px;
+    font-family: "Raleway Webfont";
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.color {
+    padding-top: 20px;
+}
+
+.color_one {
+    background: #10c6fc;
+    padding-bottom: 70px;
+}
+
+.color_one:hover {
+    background: #2d6879;
+
+}
+
+.color_two {
+    background: #002453;
+    padding-bottom: 70px;
+}
+
+.color_two:hover {
+    background: #6b647c;
+
+}
+
+.color_three {
+    background: #002453;
+    padding-bottom: 70px;
+}
+
+.color_three:hover {
+    background: #64cbc0;
+
+}
+
+.color_four {
+    background: #ff2b4a;
+    padding-bottom: 70px;
+}
+
+.color_four:hover {
+    background: #222222;
+
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.icon {
+    padding-top: 84px;
+
+}
+
+.icon i {
+    font-size: 40px;
+    color: white;
+}
+
+.icon h6 {
+    padding-top: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+/*work_and_expriment part*/
+.work_and_expriment {
+    background-image: url(Img/city.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .45);
+    width: 100%;
+    overflow: hidden;
+    min-height: 800px;
+}
+
+.work_edu_experience {
+    background: rgba(79, 50, 68, .7);
+    padding: 60px 40px;
+    color: #fff;
+}
+
+.pad {
+    padding-top: 150px;
+}
+
+.work_edu_experience h4 {
+    color: #fff;
+    font-size: 26px;
+    font-family: "Raleway Webfont";
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.border_ad {
+
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+}
+
+.contract_dtls h5 {
+    color: #fff;
+    font-size: 18px;
+}
+
+..contract_dtls h6 {
+    color: #ecf0f2;
+    font-size: 16px;
+}
+
+/*last_work*/
+.last_work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.padin {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.img-re img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.new {
+    width: 100%;
+    overflow: hidden;
+    height: 234px;
+}
+
+/*testimonial*/
+
+.lightbg {
+    background-color: #dddfeb;
+}
+
+.sections4 {
+    padding-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-content {
+    margin-top: 150px;
+}
+
+.testimonial-content .testimonial-quote i {
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #6d809e;
+}
+
+.testimonial-content .testimonial-quote p {
+    font-size: 16px;
+}
+
+.testimonial-content .singnature {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 50px 0 30px 0;
+}
+
+.testimonial-content .regards-by h5 {
+    margin-bottom: 5px;
+}
+
+.profile-photo {
+    height: 650px;
+}
+
+/*Fotter*/
+
+@media (min-width: 992px) .col-md-offset-3 {
+    margin-left: 25%;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    background: #222222;
+}
+
+.main-footer .social {
+    margin-bottom: 10px;
+}
+
+.main-footer .social a {
+    color: #c3bec2;
+    font-size: 15px;
+}
+
+.edit {
+    border-right: 1px solid #c3bec2;
+    padding: 0 10px 0 10px;
+    padding-right: 20px;
+}
+
+.edit-last {
+    padding: 0 10px 0 10px;
+}
+
+.main-footer p {
+    color: #c3bec2;
+    font-size: 12px;
+}
+
+.mar {
+    margin: 0 auto;
+}
